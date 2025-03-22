@@ -28,6 +28,9 @@ public class JwtRequestFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
+        final String requestURI = request.getRequestURI();
+        System.out.println("Request URI: " + requestURI); // Debug: In ra URI của yêu cầu
+
         final String authorizationHeader = request.getHeader("Authorization");
 
         String username = null;
