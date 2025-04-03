@@ -8,7 +8,7 @@ const Dashboard = () => {
                 title="gk-visualization"
                 width="1140"
                 height="541.25"
-                src="https://app.powerbi.com/reportEmbed?reportId=cca4d497-8d70-4f2c-85c9-b052a3bc034d&autoAuth=true&ctid=40127cd4-45f3-49a3-b05d-315a43a9f033"
+                src="https://app.powerbi.com/reportEmbed?reportId=c3f69ec5-429b-4432-b4dd-ba239c92f789&autoAuth=true&ctid=40127cd4-45f3-49a3-b05d-315a43a9f033"
                 frameBorder="0"
                 allowFullScreen="true"
             ></iframe>
